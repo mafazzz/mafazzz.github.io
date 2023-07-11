@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'mfzfont';
+    src: url(font/poppins/Poppins-Medium.otf) format('opentype');
+    font-weight: medium;
+}
+
+@font-face {
+font-family: 'mfzfont2';
+    src: url(font/poppins/Poppins-Bold.otf) format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'mfzfont3';
+        src: url(font/poppins/Poppins-SemiBold.otf) format('opentype');
+    }
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #e1ece1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/*foto background*/
+body {
+    background-image: url('background/1.jpg');
+    background-repeat: no-repeat;
+    /*cara stretch backgorund dibawah ini*/
+    background-size: 180% 180%;
+}
+
+header {
+    font-family: 'mfzfont2';
+    color: #333;
+    padding: 19px;
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 1000x;
+    position: relative;
+}
+
+header {
+ left: 0%
+
+}
+
+/*gambar instagram*/
+.logo-ig {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .logo-ig img {
+    width: 35px;
+    border: none;
+    margin: 0px;
+    padding-left: 20px;
+  }
+
+/*gambar facebook*/
+.logo-fb {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo-fb img {
+    width: 35px;
+    border: none;
+    margin: 0px;
+    height: auto;
+  }
+
+/*gambar tele*/
+.logo-tele {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo-tele img {
+    width: 35px;
+    border: none;
+    margin: 0px;
+    height: auto;
+  }
+
+/*gambar github*/
+.logo-github {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo-github img {
+    width: 60px;
+    border: none;
+    margin: 0px;
+    height: auto;
+  }  
+
+/*gambar github*/
+.logo-yt {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo-yt img {
+    width: 48px;
+    border: none;
+    margin: 0px;
+    height: auto;
+  }  
+
+main {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(28px);
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: 'mfzfont', sans-serif;
+}
+
+h1 {
+    font-family: 'mfzfont2', sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'mfzfont3', sans-serif;
+    font-size: 14px;
+    color: #333;
+    width: 190px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    backdrop-filter: blur(28px);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav {
+    background-color: #f4dddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4dddd;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        margin-bottom: 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
