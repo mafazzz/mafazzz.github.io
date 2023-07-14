@@ -6,7 +6,7 @@
 </head>
 <link rel="stylesheet" href="style.css"
 <body>
-	<header>Hey, Mafaz is here!</header>
+	<header>Hey, <span class="auto-type"></span></header>
 	<a class="logo-ig"
 	href="https://www.instagram.com/sailalmafaz_/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank">
 	<img src="socmed/ig.png" alt="Instagram Account">
@@ -33,6 +33,19 @@
 			Hey, There! I am a beginner web developer with a strong interest in technology and website development. I have studied HTML, CSS, and JavaScript, as well as various frameworks such as Bootstrap and jQuery.
 		</p>
 	</main>
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+	<script>
+		var typed = new Typed(".auto-type", {
+			strings: ["Mafaz is here !"],
+			typeSpeed: 190,
+			backSpeed: 190,
+		    loop: true 
+		}
+		)
+	</script>
+
 	<footer>&copy; 2023 mfz still learning.</footer>
 </body>
 </html>
